@@ -6,8 +6,6 @@
             <div class="card">
                 @include('users.card')
             </div>
-            {{-- フォロー／アンフォローボタン --}}
-            @include('user_follow.follow_button')
         </aside>
         <div class="col-sm-8">
             @include('users.navtabs')
